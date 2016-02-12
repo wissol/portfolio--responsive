@@ -97,10 +97,6 @@ dd {
 	margin-bottom: 1em;
 }
 
-.value-pair {
-	margin-bottom: 1em;
-}
-
 .tablet_plus {display: none}
 
 @media (min-width: 768px) {
