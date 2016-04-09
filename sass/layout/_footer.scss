@@ -1,0 +1,30 @@
+footer {
+	border-top: thin dotted black;
+	text-align: left;
+	padding: 10%;
+
+	@media #{$brk-narrow} 
+		{
+		font-size: 0.8em;
+		}
+
+	@media #{brk-wide}
+		{
+		font-weight: bold;
+		font-size: 1em;
+		}
+
+	div {
+		display: inline-block;
+	}
+}
+
+.left {
+	position: absolute;
+	left: 5%;
+}
+
+.right {
+	position: absolute;
+	right: 5%;
+}

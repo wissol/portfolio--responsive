@@ -1,0 +1,16 @@
+body {	
+	font-family: $font_stack;
+	color: $font-color;
+	font-size: $base_font_size;
+	margin: auto;
+	text-align: center;
+	padding: 1em;
+}
+
+html {
+	background: $body_background_color;
+}
+
+img {
+	max-width: 90%;
+}

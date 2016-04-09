@@ -1,0 +1,259 @@
+/* line 1, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/base/_base.scss */
+body {
+  font-family: Helvetica, sans-serif;
+  color: #505050;
+  font-size: 1rem;
+  margin: auto;
+  text-align: center;
+  padding: 1em;
+}
+
+/* line 10, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/base/_base.scss */
+html {
+  background: #f8f8f8;
+}
+
+/* line 14, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/base/_base.scss */
+img {
+  max-width: 90%;
+}
+
+/* line 1, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/base/_utility_classes.scss */
+.grey {
+  background: #f8f8f8;
+}
+
+/* line 5, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/base/_utility_classes.scss */
+#contact {
+  padding-bottom: 40px;
+}
+
+/* line 9, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/base/_utility_classes.scss */
+.tablet_plus {
+  display: none;
+}
+
+/* line 13, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/base/_utility_classes.scss */
+.capitals {
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  /* line 17, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/base/_utility_classes.scss */
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 28, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/base/_utility_classes.scss */
+  .smartphone {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 35, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/base/_utility_classes.scss */
+  .tablet_plus {
+    display: inline;
+  }
+}
+
+/* line 1, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/components/_extends.scss */
+dt, dd {
+  display: inline;
+  margin-bottom: 1em;
+}
+
+/* line 3, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/components/_typography.scss */
+h1 {
+  margin-top: 0;
+  padding: 0.5em;
+}
+@media (min-width: 1024px) {
+  /* line 3, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/components/_typography.scss */
+  h1 {
+    float: left;
+  }
+}
+
+/* line 13, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/components/_typography.scss */
+h2 {
+  font-size: 90%;
+  padding: 60px 60px 40px 60px;
+}
+
+/* line 18, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/components/_typography.scss */
+p {
+  font-size: 1.17em;
+  padding: 0.9em;
+  line-height: 1.3;
+  margin: 0 auto;
+}
+
+/* line 29, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/components/_typography.scss */
+dd {
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+/* line 36, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/components/_typography.scss */
+a {
+  text-decoration: none;
+  color: #505050;
+}
+
+/* line 1, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+section {
+  padding-top: 20px;
+}
+
+/* line 6, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+nav li {
+  list-style-type: none;
+  padding: 0.7em;
+  margin: 0.3em 1em 0 1em;
+  background: white;
+}
+@media (min-width: 768px) {
+  /* line 6, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  nav li {
+    display: inline;
+    background: none;
+  }
+}
+/* line 19, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 1024px) {
+  /* line 26, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  #main-nav {
+    margin-top: 32px;
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 35, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  #portfolio section {
+    width: 50%;
+    padding-bottom: 0;
+    float: left;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 35, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  #portfolio section {
+    width: 33%;
+  }
+}
+@media (min-width: 768px) {
+  /* line 49, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  #portfolio p {
+    padding: 10px 10px 40px 10px;
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 49, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  #portfolio p {
+    padding: 10px 7% 40px 7%;
+    font-size: 1em;
+  }
+}
+@media (min-width: 768px) {
+  /* line 63, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  #portfolio h3 {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 72, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  contact p {
+    padding: 1% 25%;
+  }
+}
+
+/* line 82, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+main {
+  background-color: white;
+}
+
+/* line 87, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+#intro img {
+  margin: 0 auto;
+  padding: 40px 0;
+}
+@media (min-width: 768px) {
+  /* line 87, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  #intro img {
+    display: block;
+    width: 40%;
+    float: right;
+    padding: 1% 1%;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 768px) {
+  /* line 101, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  #intro p {
+    text-align: left;
+    display: block;
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+    font-size: 1.25em;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 101, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_containers.scss */
+  #intro p {
+    font-size: 1.7em;
+    line-height: 1.5;
+  }
+}
+
+/* line 1, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_footer.scss */
+footer {
+  border-top: thin dotted black;
+  text-align: left;
+  padding: 10%;
+}
+@media (min-width: 768px) {
+  /* line 1, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_footer.scss */
+  footer {
+    font-size: 0.8em;
+  }
+}
+@media brk-wide {
+  /* line 1, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_footer.scss */
+  footer {
+    font-weight: bold;
+    font-size: 1em;
+  }
+}
+/* line 17, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_footer.scss */
+footer div {
+  display: inline-block;
+}
+
+/* line 22, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_footer.scss */
+.left {
+  position: absolute;
+  left: 5%;
+}
+
+/* line 27, /Users/migueldeluisespinosa/Desktop/portfolio--responsive/portfolio--responsive/sass/layout/_footer.scss */
+.right {
+  position: absolute;
+  right: 5%;
+}

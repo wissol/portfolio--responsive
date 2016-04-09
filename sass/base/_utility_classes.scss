@@ -1,0 +1,40 @@
+.grey {
+	background: $alabaster_color;
+}
+
+#contact {
+	padding-bottom: 40px;
+}
+
+.tablet_plus {
+	display: none;
+}
+
+.capitals {
+	text-transform: uppercase;
+}
+
+.clearfix:after {
+	@media #{$brk-narrow} {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+}
+
+.smartphone {
+	@media #{$brk-narrow} 
+		{
+			display: none;
+		}
+}
+
+.tablet_plus {
+	@media #{$brk-narrow}
+		{
+			display: inline;
+		}
+}
